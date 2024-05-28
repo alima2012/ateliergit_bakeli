@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.p1{
+    width: 100px;
+    text-align: center;
+    height: auto;
+}
+.icon{
+    padding: 10px;
+    background: rgb(189, 185, 185);
+    color: rgb(2, 2, 2);
+    min-width: 50px;
+    text-align: center;
+    text-transform: uppercase;
+ 
+  }
+
+.content {
+    display: flex;
+    width: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    background-color:rgb(242, 234, 222);
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+.corps{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    background-image: url('https://media.istockphoto.com/id/1532459823/fr/photo/int%C3%A9rieur-de-salon-moderne-la-nuit-avec-%C3%A9tag%C3%A8re-canap%C3%A9-fauteuils-plante-en-pot-et-climatiseur.webp?b=1&s=612x612&w=0&k=20&c=sI_oh9_ZPSlbHIkveDwypPu4EjC64cm2-MM4GZERQjQ=');
+}
+.corps p{
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 85px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:  #0f0f0f;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+.logo{
+    width: 80px;
+    margin-left: 10px;
+} 
+.livre{
+    width: 80px;
+    margin-left: 10px;
+}
+.btn{
+    display: block;
+    padding: 5px 10px;
+    height: 40px; 
+    border-radius: 10px 10px 10px 10px;
+    background: #fc3426;
+    color: #fff;
+    font-weight: 20px;
+    cursor: pointer;
+    border-style: none;
+    width: 100px;
+}
+.panier{
+    width: 30px;
+    margin-right: 2px;
+    background-color: #ffff;
+    margin-bottom: 2px;
+}

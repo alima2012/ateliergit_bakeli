@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE</title>
+    <link rel="stylesheet" href="css/styleforme.css">
+</head>
+<body>
+    <h1>Les formulaires</h1>
+    <form action="post" action="traitement.php">
+        <fieldset id="section1">
+            <legend>Informations Personnelles: </legend>
+            <label for="prenom">Entrez votre prénom</label>
+            <input type="text" name="prenom" id="prenom"><br><br>
+            <label for="nom">Entrez votre nom</label>
+            <input type="text" name="nom" id="nom"><br><br>
+            <label for="prenom">Entrez votre pseudo</label>
+            <input type="text" name="pseudo" id="pseudo"><br><br>
+        </fieldset>
+        <fieldset id="section2">
+            <legend>Informations Supplémentaires: </legend>
+            Quels sont vos loisirs?<br>
+            <input type="checkbox" id="inf" name="hobbies" value="informatique">
+            <label for="inf">Informatique</label>
+            <input type="checkbox" id="sport" name="hobbies" value="sport">
+            <label for="sport">Sport</label>
+            <input type="checkbox" id="voyages" name="hobbies" value="voyages">
+            <label for="voyages">Voyage</label>
+            <input type="checkbox" id="musique" name="hobbies" value="musique">
+            <label for="musique">Musique</label>
+        </fieldset>
+        
+        <input type="submit" value="Envoyer"> 
+    </form>
+</body>
+</html>

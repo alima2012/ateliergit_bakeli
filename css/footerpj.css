@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+img{
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+}
+.footerpj{
+    padding: 70px 0;
+}
+p{
+    float: left;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    align-items: bottom;
+}
+.footer-cols{
+    width: 25%;
+    padding: 0 15px;
+}
+ul{
+    list-style: none;
+}
+
+.footer-cols h4{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 600;
+    position: relative;
+}
+
+.footer-cols ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-cols ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #050505;
+    display: block;
+    transform: all 0.3s ease;
+}
+.footer-cols ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-cols .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0 10px 10 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40%;
+    color: #050505;
+    transform: all 0.5s ease;
+}
+.footer-cols .social-links a:hover{
+    color: black;
+    background-color: white;
+}
+.footer2{
+    text-align: center;
+    padding: 300px;
+    color: #000;
+}
+.imgfooter{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: right;
+}
+.biographie{
+    margin-top: 4rem;
+}
+/* responsive */
+@media(max-width: 767px){
+    .footer-cols{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-cols{
+        width: 100%;
+    }
+}

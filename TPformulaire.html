@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Formulaire</title>
+    <link rel="stylesheet" href="css/tpforme.css">
+</head>
+<body>
+    <form action="">
+        <h1>Postuler</h1>
+        <fieldset>
+            <legend><span class="number">1</span>Identification</legend>
+            <label for="nom">Nom:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="password">Mot de Passe:</label>
+            <input type="text" id="password">
+            <label for="">Statut:</label>
+            <input type="radio" name="status" id="mineur" value="mineur"/>
+            <label class="light" for="mineur">Mineur</label>
+            <input type="radio" name="status" id="majeur" value="majeur"/>
+            <label class="light" for="majeur">Majeur</label>
+        </fieldset>
+        <fieldset>
+            <legend><span class="number">2</span>Profil</legend>
+            <label for="bio">Biographie:</label>
+            <textarea name="" id="bio"></textarea>
+            <label for="job">Specialité</label>
+            <select name="" id="job">
+                <optgroup label="Web">
+                    <option value="html">HTML/CSS</option>
+                    <option value="boost">Boostrap</option>
+                    <option value="angular">Angular</option>
+                    <option value="React">React/JS</option>
+                </optgroup>
+                <optgroup label="Mobile">
+                    <option value="android">Android</option>
+                    <option value="mobd">Mobile Deisgner</option>
+                    <option value="ios">IOS</option>
+                </optgroup>
+                <optgroup label="Business">
+                    <option value="entreprise">Entreprise</option>
+                    <option value="freelance">Freelancer</option>
+                </optgroup>
+            </select>
+            <label for="">Centre d'Intêret:</label>
+            <input type="checkbox" name="" id="sport" value="sport">
+            <label class="light" for="sport">Sport</label>
+            <input type="checkbox" name="" id="danse" value="danse">
+            <label class="light" for="danse">Danse</label>
+            <input type="checkbox" name="" id="tourisme" value="tourisme">
+            <label class="light" for="tourisme">Tourisme</label>
+        </fieldset>
+         <button type="submit">POSTULER</button>
+    </form>
+    
+</body>
+</html>

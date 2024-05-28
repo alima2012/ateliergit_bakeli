@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif
+}
+
+h1{
+    color: red;
+    font-size: 15px;
+}
+table{
+    border: 1px solid black;
+    margin: auto;
+    height: 200px;
+    width: 50%;
+}
+thead{
+    font-size: 20px;
+    font-weight: bold;
+}
+tr, td{
+    border: 1px solid black;
+    text-align: center;
+    width: 150px;
+}
+.produit{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+

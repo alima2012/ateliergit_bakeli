@@ -1,0 +1,23 @@
+main{
+    display: grid;
+    grid-template-areas: "head head head"
+                        "side content content"
+                        "foot foot foot";
+}
+header{
+    grid-area: head;
+    background-color: antiquewhite;
+}
+article{
+    grid-area: content;
+    background-color: aqua;
+}
+aside{
+    grid-area: side;
+    background-color: blueviolet;
+    height: 100vh;
+}
+footer{
+    grid-area: foot;
+    background-color: aquamarine;
+}

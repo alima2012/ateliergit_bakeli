@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piece jointe</title>
+    <link rel="stylesheet" href="css/formulairep.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+<body>
+        <form action="post" method="traitement.php" class="formecontainer">
+            <div id="section1">
+                <div class="input-container">   
+                    <label for="first_name">First Name</label>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class="input-field" name="first_name" id="first_name" placeholder="First Name" required="required">
+                </div><br>
+                <div class="input-container">
+                    <label for="last_name">Last Name</label>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class="input-field" name="last_name" id="last_name" placeholder="Last Name" required="required">
+                </div><br>
+                <div class="input-container">
+                    <label for="dptoff">Department/Office</label>
+                    <i class="fa fa-server icon"></i>
+                    <select name="dptoff" class="input-field">
+                        <option value="" disabled selected hidden>Select your Department/Office</option>  
+                        <option value="france">France</option>
+                        <option value="france">Belgique</option>
+                        <option value="canada">France</option>
+                        <option value="maroc">Maroc</option>
+                        <option value="tunisie">Tunisie</option>
+                        <option value="algerie">Algérie</option>
+                    </select>
+                </div><br>
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class="input-field" name="username" id="username" placeholder="Username" required="required">
+                </div><br>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" class="input-field" name="password" id="password" placeholder="Password" required="required">
+                </div><br>
+                <div class="input-container">
+                    <label for="confirm_password">Confirm Password</label>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" name="confirm_password" id="confirm_password" class="input-field" placeholder="Confirm Password" required="required">
+                </div><br>
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <i class="fa fa-envelope icon"></i>
+                    <input type="mail" name="email" class="input-field" id="email" placeholder="E-mail Adress" required="required">
+                </div><br>
+                <div class="input-container">
+                    <label for="contact">Contact No</label>
+                    <i class="fa fa-phone icon"></i>
+                    <input type="text" name="contact" class="input-field" id="contact" placeholder="(639)">
+                </div><br>
+                <div class="input-container">
+                   <button type="submit" class="form-btn">
+                     submit
+                   <i class="fa fa-location-arrow"></i>
+                   </button>
+                </div>   
+            </div>      
+        </form>
+</body>
+</html>

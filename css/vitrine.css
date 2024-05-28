@@ -1,0 +1,379 @@
+*{
+    margin: 10;
+    padding: 10;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+
+}
+button a{
+    text-decoration: none;
+    font-style: normal;
+    width: 2px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border-style: none;
+    border-radius: 5px;
+}
+/* main */
+.main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.main .contentv1 .cardv1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 20px;
+    
+}
+.main .contentv1 .cardv1 .rightv1 img{
+    height: 400px;
+    width: 300px;
+    margin-top: 2px;
+    align-items: right;
+}
+.main .contentv1 .cardv1 .rightv1{
+    flex: 0 0 20%;
+    background-color: antiquewhite;
+}
+.main .contentv1 .cardv1 .leftv1{
+    flex: 0 0 30%;
+    padding: 100px;
+    background-color: antiquewhite;
+    color: black;
+}
+/* design du lien 'p' */
+.main .contentv1 .cardv1 .leftv1 h1{
+    font-family: "Dancing Script", cursive;
+}
+/* galerie */
+.galerie{
+    display: flex;
+    justify-content:flex-end;
+    
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 800px;
+    margin: 30px auto 0;
+}
+.item{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* design main2 men's fashion, kid's fashion, cosmetics, accessories */
+/* .main2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 100px;
+}
+.main2 .content2 .card2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main2 .content2 .card2 .right2 img{
+    height: 200px;
+    width: 200px;
+    margin-top: 2px;
+    align-items: top;
+}
+.main2 .content2 .card2 .right2{
+    flex: 0 0 20%;
+    background-color: rgb(55, 98, 2);
+}
+.main2 .content2 .card2 .left2{
+    flex: 0 0 20%;
+    padding: 50px;
+    background-color: rgb(55, 98, 2);
+    color: black;
+} */
+.ash{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+.content{
+    background-color: white;
+    padding: 70px 0;
+}
+.content h1{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+button{
+    margin: 5px;
+    align-items: right;
+}
+/* css habit */
+#habits{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+.images{
+    margin: 20px auto;
+    padding: 0 5%;
+}
+.images ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.images li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    transition: 0.6s;
+    height: 350px;
+    width: 20%;
+    padding: 30px;
+}
+.images li div{
+    width: 90%;
+    height: 90%;  
+   
+}
+.images li div img{
+    height: 100%;
+    width: 100%;
+}
+.navbar2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%; 
+}
+/* hot trend */
+#hottrend{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+.images2{
+    margin: 10px auto;
+    padding: 0 5%;
+}
+.images2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.images2 li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    transition: 0.6s;
+    height: 200px;
+    width: 30%;
+    /* padding: 5px;  */
+}
+/* footer */
+.foot{
+    max-width: 1170px;
+    margin: auto;
+}
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-rows{
+    width: 25%;
+    padding: 0 15px;
+}
+.monfooter{
+    background-color: #fff;
+    padding: 70px 0;
+}
+.footer-rows h4{
+    font-size: 18px;
+    color: #0a0a0a;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-rows h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-rows ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-rows ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #070707;
+    text-decoration: none;
+    font-weight: 300;
+    color: #141111;
+    display: block;
+    transform: all 0.3s ease;
+}
+ul {
+    list-style: none;
+}
+.footer-rows ul li a:hover{
+    color: #3b3636;
+    padding-left: 10px;
+}
+.footer-rows .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(2, 2, 2, 0.2);
+    margin-right: 0 10px 10 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0c0c0c;
+    transform: all 0.5s ease;
+}
+.footer-rows .social-links a:hover{
+    color: #09090a;
+    background-color: #ffffff; 
+}
+/* moyen de paiement */
+.footer-rows .social-pys a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(238, 232, 232, 0.2);
+    margin-right: 0 10px 10 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0c0c0c;
+    transform: all 0.5s ease;
+}
+.footer-rows .social-pys a:hover{
+    color: #4e4b4b;
+    background-color: #848080; 
+}
+/* bouton subscribe */
+.footer-rows .inscription{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 100%;
+}
+.footer-rows .inscription form{
+    display: flex;
+    align-items: center;
+    background: #f8f7f7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.footer-rows .inscription form input{
+    border: 0; 
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #ee0404;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.inscription form .btn{
+    font-size: 1rpx;
+    padding: 10px 15px;
+   
+}
+
+.v1{
+    width: 700px;
+    height: 500px;
+    margin-bottom: 100%;
+    background-color: bisque;
+}
+.v1 h1{
+    text-align: center;
+
+}
+.v1 img{
+    float: right;
+    width: 400px;
+    border: none;
+}
+.v1 p{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.v1 a{
+    text-align: center;
+}
+/* responsive */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
